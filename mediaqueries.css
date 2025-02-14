@@ -1,0 +1,91 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  section {
+    padding: 2vh 1vh;
+    box-sizing: border-box;
+  }
+  
+  #hero-section {
+    height: 60vh;
+  }
+
+  #hero-section, .section-container {
+    display: block;
+  }
+
+  section, .section-container {
+    height: fit-content;
+  }
+  
+  #contact-section {
+    height: 20vh;
+  }
+
+  .card-details,
+  .hero-socials-container,
+  .v {
+    flex-wrap: wrap;
+  }
+
+  .cards-container {
+    margin: 2rem 10vw;
+  }
+
+  .nav-title {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+  }
+
+  .hamburger-menu {
+    margin: 0 1rem;
+  }
+  
+  .menu-links {
+    margin-top: 0.2rem;
+  }
+
+  .menu-links a {
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .nav-line {
+    margin: 0 1rem;
+  }
+
+  .hero-image-container {
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .hero-image {
+    height: 30vh;
+    width: 30vh;
+  }
+
+  .hero-text-p1 {
+    font-size: 0.9rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-text-p2 {
+    font-size: 1.1rem;
+  }
+}

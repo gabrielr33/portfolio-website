@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Gabriel Ratschiller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/sass/style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+      <nav id="desktop-nav">
+        <div class="nav-title">Hi there!&#128075;</div>
+        <div>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#about-section">About Me</a></li>
+            <li><a class="nav-link" href="#projects-section">Projects</a></li>
+            <li><a class="nav-link" href="#contact-section">Contact</a></li>
+            <li><a type="button" class="cv-button" href="assets/CV_Gabriel_Ratschiller_ENG.pdf" target="_blank">Download CV</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav id="hamburger-nav">
+        <div class="nav-title">Hi there!&#128075;</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about-section" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#projects-section" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact-section" onclick="toggleMenu()">Projects</a></li>
+            </div>
+        </div>
+    </nav>
+
+      <hr class="nav-line">
+
+      <main>
+        <section id="hero-section">
+          <div class="hero-image-container">
+            <img class="hero-image" src="assets/images/main.png" alt="Gabriel Ratschiller profile picture">
+          </div>
+          <div class="hero-text">
+            <p class="hero-text-p1">Hi, I'm</p>
+            <h1>Gabriel Ratschiller</h1>
+            <p class="hero-text-p2">&lt;Software Developer&#47;&gt;</p>
+
+            <div class="hero-socials-container">
+                <a type="button" class="hero-socials-button" href="https://www.linkedin.com/in/gabrielratschiller/" target="_blank">
+                  <img src="assets/icons/linkedin.svg" alt="LinkedIn Profile">
+                </a>
+                <a type="button" class="hero-socials-button" href="https://github.com/gabrielr33" target="_blank">
+                  <img src="assets/icons/github.svg" alt="Github Profile">
+                </a>
+                <a type="button" class="hero-socials-button" href="mailto:gabriel.ratschiller@gmail.com" target="_blank">
+                  <img src="assets/icons/mail.svg" alt="Email address">
+                </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="about-section">
+          <h1 class="section-title">About Me</h1>
+          <div class="cards-container">
+
+            <div class="card-details">
+              <div class="card-image-container">
+                <img class="card-icon" src="assets/icons/panels-top-left.svg" alt="frontend icon" />
+              </div>
+              <div class="card-title-container">
+                <h3>Frontend Development</h3>
+                <p></p>
+              </div>
+              <div class="card-pins-and-buttons-container">
+                <div class="card-pins-container">
+                  <div class="pin-details">Angular</div>
+                  <div class="pin-details">TypeScript</div>
+                  <div class="pin-details">HTML</div>
+                  <div class="pin-details">CSS</div>
+                  <div class="pin-details">SCSS</div>
+                </div>
+                <div class="card-buttons-container"></div>
+              </div>
+            </div>
+
+            <div class="card-details">
+              <div class="card-image-container">
+                <img class="card-icon" src="assets/icons/database.svg" alt="backend icon" />
+              </div>
+              <div class="card-title-container">
+                <h3>Backend Development</h3>
+                <p></p>
+              </div>
+              <div class="card-pins-and-buttons-container">
+                <div class="card-pins-container">
+                  <div class="pin-details">C#</div>
+                  <div class="pin-details">ASP.NET</div>
+                  <div class="pin-details">SQL</div>
+                  <div class="pin-details">Python</div>
+                  <div class="pin-details">MATLAB</div>
+                  <div class="pin-details">AWS</div>
+                  <div class="pin-details">Azure</div>
+                  <div class="pin-details">Docker</div>
+                </div>
+                <div class="card-buttons-container"></div>
+              </div>
+            </div>
+
+            <div class="card-details">
+              <div class="card-image-container">
+                <img class="card-icon" src="assets/icons/code-xml.svg" alt="code icon" />
+              </div>
+              <div class="card-title-container">
+                <h3>Clean Code</h3>
+                <p>Writing maintainable, well-documented and efficient code.</p>
+              </div>
+              
+              <div class="card-pins-and-buttons-container">
+                <div class="card-pins-container">
+                  <div class="pin-details">TDD</div>
+                  <div class="pin-details">Scrum</div>
+                  <div class="pin-details">Git</div>
+                </div>
+                <div class="card-buttons-container"></div>
+              </div>
+            </div>
+
+            <div class="card-details">
+              <div class="card-image-container">
+                <img class="card-icon" src="assets/icons/graduation-cap.svg" alt="education icon" />
+              </div>
+              <div class="card-title-container">
+                <h3>Education</h3>
+                <p>Studied Visual Computing &#x40; TU Wien.</p>
+              </div>
+              <div class="card-pins-container">
+                <div class="pin-details">Dipl.-Ing.</div>
+              </div>
+              <div class="card-buttons-container">
+                <a type="button" class="card-primary-button" href="assets/Gabriel Ratschiller - Design and Evaluation of Different Selection Metaphors for a Dissimilar Co-Embodied Avatar in Virtual Reality.pdf" target="_blank">
+                  <img src="assets/icons/download.svg" alt="new tab icon" />
+                  Download Thesis
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="projects-section">
+          <h1 class="section-title">Projects</h1>
+            <div class="cards-container">
+
+                <div class="card-details">
+                  <div class="card-image-container-projects">
+                    <img class="card-image-projects" src="assets/images/GUI_dosa_impl.png" alt="DOSA gui" />
+                  </div>
+                  <div class="card-title-container">
+                    <h3>DOSA: Multivariate Network Exploration and Presentation</h3>
+                    <p>Client-side data analysis dashboard for visualizing multivariate network data build using JavaScript and Bootstrap.</p>
+                  </div>
+                  <div class="card-pins-container">
+                    <div class="pin-details">JavaScript</div>
+                    <div class="pin-details">Bootstrap</div>
+                    <div class="pin-details">d3.js</div>
+                    <div class="pin-details">cytoscape.js</div>
+                  </div>
+                  <div class="card-buttons-container-projects">
+                    <a type="button" class="card-secondary-button" href="https://github.com/gabrielr33/Visualization-2-DOSA" target="_blank">
+                      <img src="assets/icons/github.svg" alt="github icon" />
+                      Code
+                    </a>
+                    <a type="button" class="card-primary-button-link" href="#" target="_blank">
+                      <img src="assets/icons/external-link.svg" alt="new tab icon" />
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-details">
+                  <div class="card-image-container-projects">
+                    <img class="card-image-projects" src="assets/images/gui_license_plate.png" alt="license plate recognition" />
+                  </div>
+                  <div class="card-title-container">
+                    <h3>License Plate Recognition</h3>
+                    <p>Computer vision application for the recognition of licence plates and licence plate characters in RGB car images build using MATLAB.</p>
+                  </div>
+                  <div class="card-pins-container">
+                    <div class="pin-details">MATLAB</div>
+                  </div>
+                  <div class="card-buttons-container-projects">
+                    <a type="button" class="card-secondary-button" href="https://github.com/gabrielr33/license_plate_recognition" target="_blank">
+                      <img src="assets/icons/github.svg" alt="github icon" />
+                      Code
+                    </a>
+                    <a type="button" class="card-primary-button-link" href="#" target="_blank">
+                      <img src="assets/icons/external-link.svg" alt="new tab icon" />
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-details">
+                  <div class="card-image-container-projects">
+                    <img class="card-image-projects" src="assets/images/under-contruction.png" alt="license plate recognition" />
+                  </div>
+                  <div class="card-title-container">
+                    <h3>In progress...</h3>
+                    <p> Full-Stack learning platform (LMS) build with the .NET stack.</p>
+                  </div>
+                  <div class="card-pins-container">
+                    <div class="pin-details">Angular</div>
+                    <div class="pin-details">C#</div>
+                    <div class="pin-details">ASP.NET Core</div>
+                    <div class="pin-details">SQL</div>
+                  </div>
+                  <div class="card-buttons-container-projects"></div>
+                </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section id="contact-section">
+          <p class="section-title-light">Get in touch</p>
+          <h1 class="section-title">Contact Me</h1>
+          
+          <div class="hero-socials-container">
+            <a type="button" class="hero-socials-button" href="https://www.linkedin.com/in/gabrielratschiller/" target="_blank">
+              <img src="assets/icons/linkedin.svg" alt="LinkedIn Profile">
+            </a>
+            <a type="button" class="hero-socials-button" href="https://github.com/gabrielr33" target="_blank">
+              <img src="assets/icons/github.svg" alt="Github Profile">
+            </a>
+            <a type="button" class="hero-socials-button" href="mailto:gabriel.ratschiller@gmail.com" target="_blank">
+              <img src="assets/icons/mail.svg" alt="Email address">
+            </a>
+          </div>
+        </section>
+      </main>
+      
+      <script src="script.js"></script>
+  </body>
+</html>
